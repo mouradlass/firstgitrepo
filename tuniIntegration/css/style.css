@@ -1,0 +1,364 @@
+body{
+  background: url('../img/font.png') top center no-repeat;
+}
+
+ul{
+  list-style: none;
+}
+
+header {
+  height: 475px;
+}
+/*******************logo**************/
+
+#logo{
+  background: url('../img/logo.png') no-repeat;
+  height: 90px;
+  margin-top: 30px;
+  text-indent: -999em;
+  float: left;
+}
+/*******************menu top**************/
+
+.menu-top {
+  float: right;
+}
+
+.menu-top ul{
+  display: block;
+  float: right;
+}
+
+.menu-top ul li{
+  display: inline;
+  margin: 2px auto;
+  border-right-color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.space{
+  background: url('../img/separateur-menu.png') no-repeat transparent;
+}
+
+.menu-top ul li a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fff;
+}
+/*******************slide banner**************/
+
+.slide {
+  background: none repeat scroll 0 0 #FFFFFF;
+  height: 237px;
+}
+
+.slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.99;
+}
+/*******************menu pricipal**************/
+
+.home{
+  background: url('../img/btn-home.png') top center no-repeat, url('../img/btn-color.png') bottom center no-repeat;
+  float: left;
+  height: 97%;
+  margin-top: 0;
+  width: 8%;
+}
+
+nav#nav {
+  background: url('../img/menu-bar.png') no-repeat;
+  height: 51px;
+  padding-top: 3px;
+}
+
+nav#nav ul{
+  display: inline;
+  float: left;
+  height: 97%;
+  width: 87%;
+  margin-top: 10px;
+}
+
+nav#nav ul li{
+  border-right: 1px solid #BCBCBC;
+  display: inline;
+  margin: 2px 0px;
+  padding-left: 20px;
+  padding-right: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav#nav ul li.last{
+  border-right: 0px solid #BCBCBC;
+  display: inline;
+  margin: 2px 2px 1px 1px;
+  padding: 10px 10px 5px 40px;
+}
+
+nav#nav ul li a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #000;
+}
+/********header-bottom************/
+
+.header-bottom{
+  background: none repeat scroll 0 0 #3B5998;
+  height: 42px;
+  margin-top: 10px;
+}
+
+.left{
+  float: left;
+  margin-top: -10px;
+}
+
+.left a{
+  text-decoration: none;
+}
+
+.left a h1 {
+  color: #fff;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.partage{
+  float: left;
+  margin-top: -8px;
+}
+
+.partage ul{
+  display: inline;
+  float: right;
+}
+
+.partage ul li{
+  display: inline;
+  margin: 2px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*===========================*/
+/***************Content************/
+
+.content{
+  height: auto;
+}
+
+.connexion{
+  height: 275px;
+  background: url('../img/bg-sidebar-conn.png') top left no-repeat, url('../img/bg-sidebar-front.png') bottom left no-repeat;
+  border-radius: 3px;
+}
+
+.newsletter{
+  height: 275px;
+  background: url('../img/newesletter.png') center center no-repeat, url('../img/bg-sidebar-news.png') top left no-repeat, url('../img/bg-sidebar-front.png') bottom left no-repeat;
+  border-radius: 3px;
+}
+
+aside form {
+  float: left;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+aside h1{
+  color: #fff;
+  font-size: 19px;
+  margin-top: 0;
+  font-family: "miso-bold";
+  text-align: center;
+}
+
+aside form input[type="submit"] {
+  background: url('../img/btn-connecter.png') no-repeat;
+  border: none;
+  margin: 11px 0 0 55px;
+  text-align: center;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  font-family: "miso-light";
+  font-size: 13px;
+  padding-left: 24px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+aside form input[type="password"] {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+aside form pre a {
+  color: #772323;
+  font-family: serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+aside form div a {
+  color: #000;
+  font-family: serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+aside form div.Inscription {
+  background: #ebebeb;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 160px;
+  height: 25px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+aside.newsletter p {
+  text-align: center;
+  margin-top: -19px;
+  font-family: "miso-bold";
+}
+
+aside.newsletter input[type="email"] {
+  margin-top: 90px;
+}
+
+.main-content{
+  height: auto;
+}
+
+#derniers-annonces{
+  background: #C9C9C9;/* old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #c9c9c9 100%);/* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #c9c9c9));/* webkit */
+  height: 275px;
+  width: 100%;
+  float: left;
+}
+
+#derniers-annonces h1.title-article {
+  background: url('../img/flech.png') left center no-repeat;
+  height: 20px;
+  margin: 0px 0px 5px 0px;
+  padding-left: 25px;
+}
+
+#derniers-annonces ul.annonces {
+  width: 100%;
+  float: left;
+  height: 232px;
+  padding: 0;
+  margin: 0;
+}
+
+#derniers-annonces ul.annonces li{
+  display: block;
+  text-decoration: none;
+  float: left;
+  width: 245px;
+  height: 77px;
+}
+
+#derniers-annonces ul.annonces li ul{
+  display: block;
+  margin: -1px;
+  padding: -1px;
+  height: 100%;
+}
+
+#derniers-annonces ul.annonces li ul li{
+  display: block;
+  text-decoration: none;
+  float: left;
+  width: 50%;
+  margin-right: -15px;
+  height: 100%;
+}
+
+#derniers-annonces ul.annonces li ul li p{
+  margin: 0;
+  text-align: center;
+}
+
+#derniers-annonces ul.annonces li ul li h3{
+  margin: 0;
+  text-align: center;
+}
+
+.titre-ann{
+  float: right;
+  height: 75%;
+}
+
+.prix{
+  float: right;
+  height: 25%;
+}
+
+#derniers-annonces ul.annonces li ul li .dolar{
+  margin: 0 auto;
+  text-align: right;
+  color: red;
+}
+
+#derniers-annonces ul li a{
+  line-height: 1.5em;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #000;
+}
+/*****************footer*********/
+
+footer{
+  margin-top: 10px;
+  background: repeat #3B5998;
+  border-radius: 10px;
+  font-family: "miso-bold";
+}
+
+footer ul.footer-list{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+footer ul.footer-list li.grid_8 {
+  float: left;
+  border-right: 3px solid #9d9d9d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer ul.footer-list li.grid_8:last-child {
+  float: left;
+  border-right: 0px solid #9d9d9d;
+}
+
+footer h2{
+  color: #fff;
+  font-family: "miso-bold";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer a{
+  line-height: 1.5em;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #ccc;
+}

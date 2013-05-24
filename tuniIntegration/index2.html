@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Acceuil Annonce</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/960.css" />
+<link rel=stylesheet href="./css/style.css">
+</head>
+<body>
+<div class="container_12">
+
+     <!-- Golbal Header -->
+            <header id=header>
+                <!-- Logo -->
+
+                <div class="grid_4" id=logo >
+                    <h1><a href="Acceuil.php">Tuni-annonces</a></h1>
+                </div>
+
+                <div class="grid_8 menu-top">
+                    <ul>
+                        <li><a href="Professionnel.php"><span>Professionnel</span></a></li>
+                        <li class="space" ></li>
+                        <li><a href="Newsletter.php"><span>Newsletter</span></a></li>
+                        <li class="space" ></li>
+
+                        <li><a  class="last" href="Particulier.php"><span>Particulier</span></a></li>
+                        <li class="space" ></li>
+
+                        <li><a  class="last" href="Contact.php">Contact</span></a></li>
+                    </ul>
+                </div>
+                <!-- /Logo -->
+            <!-- /slide -->
+                <div class="grid_12" id="slideImages">
+                    <img title="Tuni-annonce" alt="Tuni-annonce" src="img/bann.png" style="display: block; width: 100%;height: 100%; opacity: 0.99;">
+                    <img title="Tuni-annonce" alt="Tuni-annonce" src="img/bann2.png" style="display: none; width: 100%;height: 100%; opacity: -0.01;">
+                </div>
+                <!-- /slide -->
+                <!-- Golbal Nav -->
+            <div class="grid_12">
+                <nav id=nav>
+                    <div class="home"><a href="index.php"></a></div>
+                    <ul>
+                        <li class=Menu><a href="#"><b></b><span>Immobilier</span></a></li>
+                        <li class=Menu><a href="#"><b></b><span>Electronique</span></a></li>
+                        <li class=Menu><a href="#"><b></b><span>Auto moto</span></a></li>
+                        <li class=Menu><a href="#"><b></b><span>GSM-images et son</span></a></li>
+                        <li class=Menu><a href="#"><b></b><span>Services</span></a></li>
+                        <li class=last><a href="#"><b></b><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="grid_12">
+
+                 <section class="bar-top">
+
+                    <div class="left"><a href="deposer-annonce.php"><h1>Déposez vos annonces </h1></a></div>
+                    <div class="partage">
+                        <ul>
+                            <li><a href="#" title="twiter"><img src="img/reseau-social-tweet.png" ></a></li>
+                            <li><a href="#" title="google plus"><img src="img/reseau-social-google.png" ></a></li>
+                            <li><a href="#" title="facebook"><img src="img/reseau-social-fb.png" ></a></li>
+                            <li><a href="#" title="Flux rss"><img src="img/reseau-social-rss.png" ></a></a></li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+                <!-- /Golbal Nav -->
+            </header>
+            <!-- /Golbal Header -->
+
+  <div class="clear"></div>
+
+
+    <!-- Page-->
+                <div class="content">
+                <section class="left-content grid_3">
+                    <aside class="connexion ">
+                        <h1>Connexion</h1>
+                        <form action=""  name="AuthForm" method="post" >
+                            <input type="text" value="" placeholder="Email" name="login" required="true" >
+                            <input type="password" placeholder="Mot de passe" name="password" required="true" >
+                            <input type ="submit" value ="Se connecter" name="Connecter">
+                            <pre><a href="#">Mot de passe oublié ?</a></pre>
+                            <div class="Inscription"><a href="Inscription.php">Créez un compte</a></div>
+                        </form>
+
+                    </aside>
+                    <aside class="newsletter">
+                        <h1>Newsletter</h1>
+                        <p>Rien  rater des bonnes affaires</p>
+                        <p>avec Tuni Annonce</p>
+                        <form action=" " class="newsletterForm" name="newsletterForm" method="post" >
+                            <input type="email" name="email" id="email"  required="true" />
+                            <input type ="submit" value="S'inscrire" >
+                        </form>
+                    </aside>
+                </section>
+                <section class="main-content grid_9">
+                     <article id="derniers-annonces">
+                        <ul class="title-article">
+                            <li>
+                                <h1>  Les derniers annonces</h1>
+                            </li>
+                        </ul>
+                        <ul class="annonces">
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/phone.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>GSM 7200</h3>
+                                    <p>GSM-Image et son</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">90$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/camion.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Camion à vendre</h3>
+                                    <p>Auto-moto</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">30000$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/Villa.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Villa à louer</h3>
+                                    <p>Immoblier</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">2000$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/departement.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Département à louer</h3>
+                                    <p>Immoblier</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">300$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/cuisine.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Cuisine moderne</h3>
+                                    <p>Immoblier</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">1500$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/camera.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Camera à vendre</h3>
+                                    <p>Elécronique</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">600$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/scoteur.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Scoteur à vendre</h3>
+                                    <p>Auto-moto</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">700$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/teliviseur.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                    <h3>Télivisur Plazma</h3>
+                                    <p>Eléctronique</p>
+                                    </div>
+                                    <div class="prix">
+                                    <p class="dolar">900$</p>
+                                    </div>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="annonces-thumbnail"><img src="img/meuble.png"></li>
+                                    <li class="annonces-details">
+                                    <div class="titre-ann">
+                                     <h3>Meuble en rotin</h3>
+                                     <p>Immoblier</p>
+                                    </div>
+                                    <div class="prix">
+                                      <p class="dolar">200$</p>
+                                    </div>
+
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </article>
+
+                </section>
+             </div>
+            <!-- / Page-->
+
+  <!-- end .grid_12 -->
+
+  <div class="clear"></div>
+    <!-- Global Footer -->
+            <footer class="grid_12">
+
+                    <div class="grid_3"><h1>Annonces Immobiler</h1>
+                        <ul>
+                            <li><a href="#">Offres de vente</a></li>
+                            <li><a href="#">Offres de location</a></li>
+                            <li><a href="#">Demandes de vente</a></li>
+                            <li><a href="#">Demandes de location</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid_3">
+                        <h1>Annonce Electronique</h1>
+                        <ul>
+                            <li><a href="#">Offres de vente</a></li>
+                            <li><a href="#">Offres de location</a></li>
+                            <li><a href="#">Demandes de vente</a></li>
+                            <li><a href="#">Demandes de location</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_3"><h1>Annonce Auto-moto</h1>
+                        <ul>
+                            <li><a href="#">Voitures d'occasion</a></li>
+                            <li><a href="#">Moto d'occasion</a></li>
+                            <li><a href="#">Camion d'occasion</a></li>
+                            <li><a href="#">Pieces autos-accessoires</a></li>
+                        </ul>
+                    </div>
+                <div class="grid_3 last"><h1>Annonce Télé-média</h1>
+                        <ul>
+                            <li><a href="#">GSM</a></li>
+                            <li><a href="#">DVD</a></li>
+                            <li><a href="#">Télévisions et paraboles</a></li>
+                            <li><a href="#">Appareil photos</a></li>
+                        </ul>
+                    </div>
+
+
+
+            </footer>
+            <!-- /Global Footer -->
+
+  <!-- end .grid_12 -->
+
+</div>
+<!-- end .container_12 -->
+
+</body>
+</html>
